@@ -11,4 +11,4 @@ function Mostrar()
 document.getElementById('suma').value=positivo;
 document.getElementById('producto').value=negativo;
 
-}//FIN DE LA FUNCIÓN
+}
