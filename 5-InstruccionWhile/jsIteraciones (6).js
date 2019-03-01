@@ -8,14 +8,13 @@ acumulador es la suma de 2 variables*/
 Do while se utiliza cuando queremos que el while se execute almenos una vez y while para cuando no sabemos la cantidad de veces que se tiene que ejecutar el while*/
 
 var contador=0;
-
-
 var acumulador=0;
-    	
-		while(contador > 5){
-			acumulador = acumulador + parseInt(prompt("ingrese 5 numeros"));
-			contador ++;
-}
+do{	
+		
+	    acumulador += parseInt(prompt("ingrese 5 numeros"));
+		contador ++;
+
+		}while(contador < 5);					
 					document.getElementById('suma').value=acumulador;
 					document.getElementById('promedio').value=acumulador/5;
 }
